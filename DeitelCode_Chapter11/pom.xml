@@ -11,7 +11,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<release>13</release>
+					<release>14</release>
 					<compilerArgs>--enable-preview</compilerArgs>
 				</configuration>
 			</plugin>
@@ -22,7 +22,7 @@
 				<artifactId>javafx-maven-plugin</artifactId>
 				<version>0.0.2</version>
 				<configuration>
-					<release>13</release>
+					<release>14</release>
 					<compilerArgs>--enable-preview</compilerArgs>
 					<mainClass>ch01.Painter.Painter</mainClass>
 				</configuration>
@@ -37,7 +37,7 @@
 		<!-- <JavaFX.Platform>mac</JavaFX.Platform> -->
 		<!-- <JavaFX.Platform>linux</JavaFX.Platform> -->
 
-		<java.version>1.13</java.version>
+		<java.version>1.14</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
